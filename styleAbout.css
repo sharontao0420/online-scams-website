@@ -30,9 +30,9 @@
         font-family: Arial, Verdana;
         font-size: 18px;
         list-style: none;
-        padding-inline-start: 0;
-    display: flex;
-    justify-content: space-around;
+        padding: 0;
+        display: flex;
+        justify-content: space-around;
     }
     
     .titleNav ul li {
@@ -59,7 +59,7 @@
     }
     
     .main-content {
-        align-items: start;
+
     }
 
     .img-content {
@@ -157,7 +157,7 @@
     .index {
         position: relative;
         left: 30px;
-        margin: 20px 20px 0px 20px;
+        margin: 20px 20px 0 20px;
         max-width: 90%;
         height: auto;
         box-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
@@ -247,7 +247,7 @@
         font-family: Avenir;
         font-size: 28px;
         line-height: 14px;
-        margin: 20px 0px 40px 0px;
+        margin: 20px 0 40px 0;
         padding: 10px 20px;
     }
     

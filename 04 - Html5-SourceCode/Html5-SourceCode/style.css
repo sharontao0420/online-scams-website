@@ -77,7 +77,7 @@ article p {
 section {
   background-color: #9bcdff;
   border: double 4px white;
-  padding: 0px;
+  padding: 0;
   margin: 10px 10px;
 }
 
@@ -112,7 +112,7 @@ aside h3 {
   color: #ff4ba0;
   font-size: 24px;
   line-height: 14px;
-  margin: 20px 0px 0px 0px;
+  margin: 20px 0 0 0;
   padding: 10px 20px;
 }
 
