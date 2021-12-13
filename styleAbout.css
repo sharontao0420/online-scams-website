@@ -1,0 +1,303 @@
+    body {
+        width: 960px;
+        margin: 0 auto;
+        background-color: #ffe1b6;
+        font-size: 20px;
+        font-family: Times, serif;
+        color: #ce7d00;
+    }
+    
+    header {
+        margin-top: 20px;
+        border: solid 10px #f9f8eb;
+    }
+    
+    h1 {
+        font-size: 60px;
+        text-align: center;
+        color: #d65d7a;
+        text-shadow: 0 3px 3px rgba(0, 0, 0, .5);
+        margin: 5px 0 5px 0;
+    }
+    
+    nav {
+        margin: 0 auto;
+        width: 800px;
+    }
+    
+    .titleNav ul {
+        text-align: center;
+        font-family: Arial, Verdana;
+        font-size: 18px;
+        list-style: none;
+        padding-inline-start: 0;
+    display: flex;
+    justify-content: space-around;
+    }
+    
+    .titleNav ul li {
+        display: inline-block;
+        height: 20px;
+        white-space: nowrap;
+    }
+    
+    .menuItem {
+        text-decoration: none;
+        padding: 5px 20px;
+        background: #7a9eb1;
+        color: #f9f8eb;
+        text-shadow: 0 2px 2px rgba(0, 0, 0, .5);
+        border: solid 4px #f9f8eb;
+        border-radius: 10px;
+    }
+    
+    a:hover {
+        color: coral;
+        background-color: #AAF;
+        position: relative;
+        left: -5px;
+    }
+    
+    .main-content {
+        align-items: start;
+    }
+
+    .img-content {
+        display: flex;
+    }
+
+    .imgPage4 {
+        flex:1; 
+        margin: 20px 20px;
+    }
+
+    .img5Page4 {
+        margin: 0 20px;
+        text-align: center;
+    }
+
+    .img6Page4 {
+        margin: 20px 20px;
+    }
+   
+    .img7Page4 {
+        margin: 20px 20px;
+    }
+
+    article {
+        margin-top: 35px;
+        background-color: #7a9eb1;
+        border: double 10px #f9f8eb;
+        text-shadow: 0 1px 1px rgba(0, 0, 0, .5);
+        height: auto;
+    }
+    
+    article h2 {
+        color: #cf4061;
+        font-family: Avenir;
+        font-size: 29px;
+        margin: 20px 0 0 0;
+        padding: 10px 20px;
+        text-shadow: none; 
+        line-height: 14px;
+    }
+    
+    article p {
+        color: #f9f8eb;
+        line-height: 24px;
+        padding: 2px 20px;
+        font-family: Avenir;
+    }
+
+    .bigText {
+        font-size: larger;
+    }
+    
+    section {
+        background-color: #ffe1b6;
+        border: double 4px #f9f8eb;
+        margin: 10px 10px;
+        /* padding: 0; */
+    }
+    
+    section h3 {
+        color: #d65d7a;
+        font-family: Avenir;
+        font-size: 28px;
+        margin: 15px;
+        text-shadow: 0 1px 1px rgba(0, 0, 0, .5);
+    }
+    
+    .imgPage1 {
+        position: relative;
+        left: 20px;
+        margin: 20px 20px;
+        max-width: 80%;
+    }
+
+    iframe {
+        position: relative;
+        left: 20px;
+        margin: 20px 20px;
+        max-width: 80%;
+    }
+
+    .imgIndex{
+        height: 110px;
+        margin-top: 30px;
+    box-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    }
+
+    .imgIndex1{
+        height: 120px;
+        margin-top: 30px;
+    box-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    }
+
+    .index {
+        position: relative;
+        left: 30px;
+        margin: 20px 20px 0px 20px;
+        max-width: 90%;
+        height: auto;
+        box-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+
+
+    }
+    
+    section p {
+        color: rgba(0, 0, 0, .5);
+        font-size: 16px;
+        line-height: 22px;
+    }
+    
+    section a {
+        text-decoration-color: #a2dffb;
+        color: #0089c7;
+    }
+    
+    aside {
+        margin: 35px 0 0 20px;
+        background-color: #ffe1b6;
+        border: solid 8px #f9f8eb;
+        height: auto;
+        width: 302px;
+        text-shadow: 0 1px 1px rgba(0, 0, 0, .5);
+    }
+    
+    aside nav {
+        margin: 0 auto;
+        width: 200px;
+    }
+    
+    aside nav ul {
+        text-align: left;
+        font-family: Arial, Verdana;
+        font-size: 18px;
+        list-style: none;
+        margin-left: -10px;
+        position: relative;
+        padding: 0;
+    }
+    
+    aside nav ul li {
+        margin: 20px 0 5px;
+        white-space: nowrap;
+        color:seagreen;
+        font-weight: bolder;
+        font-size: 20px;
+        font-family: Avenir;
+
+    }
+
+    aside nav ul li p {
+        white-space: normal;
+        padding: 0;
+        font-size: 18px;
+
+    }
+
+    aside nav ul p {
+        font-size: 14px;
+        padding:0;
+    }
+    
+    aside nav ul li a {
+        text-decoration: none;
+        padding: 5px 20px;
+        background: #7a9eb1;
+        color: #f9f8eb;
+        text-shadow: 0 2px 2px rgba(0, 0, 0, .5);
+        border: solid 4px #f9f8eb;
+        border-radius: 10px;
+        margin-left: -10px;
+        
+    }
+    
+    .page1 {
+        top: -720px;
+    }
+    
+    .page2 {
+        top: -620px;
+    }
+    
+    aside h3 {
+        color: #d65d7a;
+        font-family: Avenir;
+        font-size: 28px;
+        line-height: 14px;
+        margin: 20px 0px 40px 0px;
+        padding: 10px 20px;
+    }
+    
+    aside p {
+        color: rgba(0, 0, 0, .5);
+        line-height: 22px;
+        padding: 0 20px;
+    }
+    
+    footer {
+        margin-top: 20px;
+        height: 75px;
+        border: solid 10px #7a9eb1;
+    }
+    
+    footer p {
+        color: #d65d7a;
+        font-size: 24px;
+        margin: 10px;
+        text-shadow: 0 1px 1px rgb(0 0 0 / 50%);
+        text-align: center;
+    }
+
+        /* embedded style of using a media query*/
+
+        @media (max-width:960px) {
+            body {
+                background-color: #a561ff;
+            }
+            article {
+                width: 100%;
+                background-color: darkgreen;
+            }
+            aside {
+                top: 200px;
+            }
+        }
+        
+        @media (min-width:400px) and (max-width:800px) {
+            header {
+                background-color: orange;
+            }
+            article {
+                font-size: 25px;
+            }
+        }
+        
+        @media print and (max-width:960px) {
+            nav,
+            footer {
+                display: none;
+            }
+        }
